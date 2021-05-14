@@ -19,8 +19,10 @@ nc -  reads and writes data across network connections, using TCP or UDP protoco
 
 ## Bash/Python script to automate the process
 ```
-sshpass -p '4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e' ssh bandit14@bandit.labs.overthewire.org -p 2220 'bash -s' < bandit14.sh </br>
-**bandit14.sh contains**</br>
+sshpass -p '4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e' ssh bandit14@bandit.labs.overthewire.org -p 2220 'bash -s' < bandit14.sh 
+
+bandit14.sh contains :-
+
 echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
 
 ```

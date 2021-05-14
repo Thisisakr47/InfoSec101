@@ -42,8 +42,10 @@ tar   - compress a group of files into an archive
 
 ## Bash/Python script to automate the process
 ```
-sshpass -p '5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu' ssh bandit12@bandit.labs.overthewire.org -p 2220 'bash -s' < bandit12.sh </br>
-**bandit12.sh contains :-**
+sshpass -p '5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu' ssh bandit12@bandit.labs.overthewire.org -p 2220 'bash -s' < bandit12.sh 
+
+bandit12.sh contains :-
+
 echo $(mkdir /tmp/akr)</br>
 echo $(cp data.txt /tmp/akr)</br>
 echo $(cd /tmp/akr)</br>
