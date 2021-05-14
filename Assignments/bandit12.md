@@ -48,7 +48,7 @@ bandit12.sh contains :-
 
 echo $(mkdir /tmp/akr)
 echo $(cp data.txt /tmp/akr)
-echo $(cd /tmp/akr)
+cd /tmp/akr
 echo $(xxd -r data.txt > 1)
 echo $(mv 1 1.gz)
 echo $(gzip -d 1.gz)
