@@ -46,26 +46,26 @@ sshpass -p '5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu' ssh bandit12@bandit.labs.overthewi
 
 bandit12.sh contains :-
 
-echo $(mkdir /tmp/akr)</br>
-echo $(cp data.txt /tmp/akr)</br>
-echo $(cd /tmp/akr)</br>
-echo $(xxd -r data.txt > 1)</br>
-echo $(mv 1 1.gz)</br>
-echo $(gzip -d 1.gz)</br>
-echo $(mv 1 1.bz2)</br>
-echo $(bzip2 -d 1.bz2)</br>
-echo $(mv 1 1.gz)</br>
-echo $(gzip -d 1.gz)</br>
-echo $(mv 1 1.tar)</br>
-echo $(tar xf 1.tar)</br>
-echo $(mv data5.bin 1.tar)</br>
-echo $(tar xf 1.tar)</br>
-echo $(mv data6.bin 1.bz2)</br>
-echo $(bzip2 -d 1.bz2)</br>
-echo $(mv 1 1.tar)</br>
-echo $(tar xf 1.tar)</br>
-echo $(mv data8.bin 1.gz)</br>
-echo $(gzip -d 1.gz)</br>
-echo $(cat 1)</br>
+echo $(mkdir /tmp/akr)
+echo $(cp data.txt /tmp/akr)
+echo $(cd /tmp/akr)
+echo $(xxd -r data.txt > 1)
+echo $(mv 1 1.gz)
+echo $(gzip -d 1.gz)
+echo $(mv 1 1.bz2)
+echo $(bzip2 -d 1.bz2)
+echo $(mv 1 1.gz)
+echo $(gzip -d 1.gz)
+echo $(mv 1 1.tar)
+echo $(tar xf 1.tar)
+echo $(mv data5.bin 1.tar)
+echo $(tar xf 1.tar)
+echo $(mv data6.bin 1.bz2)
+echo $(bzip2 -d 1.bz2)
+echo $(mv 1 1.tar)
+echo $(tar xf 1.tar)
+echo $(mv data8.bin 1.gz)
+echo $(gzip -d 1.gz)
+echo $(cat 1)
 
 ```
